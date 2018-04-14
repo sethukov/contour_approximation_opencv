@@ -41,6 +41,6 @@ for num in range(len(approx)):
         zeros_image=cv2.line(zeros_image, (approx[num][0][0],approx[num][0][1]), (approx[0][0][0],approx[0][0][1]), 255, 1, 1)
 
 plt.subplot('122')
-plt.title("Method 1: Using cv2.line")
+plt.title("Method 2: Using cv2.line")
 plt.imshow(zeros_image)
 plt.show()
